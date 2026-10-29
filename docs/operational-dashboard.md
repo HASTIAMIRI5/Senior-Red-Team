@@ -1,121 +1,149 @@
 # Operational Dashboard
 
-This dashboard captures the operational state of a professional red-team, adversary-emulation, or defensive validation engagement. It is designed to make scope, activity, evidence quality, and risk posture visible to technical and leadership stakeholders.
+This dashboard provides a professional, executive-ready view of the current state of a security engagement. It is designed to consolidate scope, readiness, activity, evidence quality, risk posture, and remediation status into a single operational view for technical and leadership audiences.
 
-## Executive Overview
+## Executive Summary
 
-- Engagement Status: Active
-- Security Objective: Validate resilience, detection quality, and defensive control effectiveness
-- Scope: Identity, endpoint, network, cloud, and application layers within approved boundaries
-- Primary Risk Lens: Realistic adversary behavior, business impact, and defensive readiness
-- Reporting Cadence: Weekly update + final executive summary
+- Engagement Type: Red Team / Adversary Emulation / Defensive Validation
+- Current Status: Active
+- Objective: Validate resilience, control quality, and detection readiness against realistic adversary behavior
+- Scope: Identity, access, endpoint, network, cloud, and application exposure within approved boundaries
+- Reporting Model: Weekly operational update + final technical and executive report
+- Risk Posture: Controlled but dynamic; major focus remains on identity, detection quality, and containment review
 
-## Status Summary
+## Mission Status Scorecard
 
-| Area | Status | Notes |
-|---|---|---|
-| Authorization & Scope | Green | Approved boundaries and stakeholders confirmed |
-| Asset Inventory | Green | Core systems and ownership mapped |
-| Threat Planning | Green | Threat narratives and ATT&CK mapping defined |
-| Detection Review | Amber | Coverage assessed; some alerting gaps remain |
-| Access & Identity Review | Amber | Control quality under review |
-| Reporting Readiness | Green | Templates and evidence are in place |
-| Remediation Tracking | Amber | Priorities are being triaged |
+| Domain | Status | Confidence | Commentary |
+|---|---|---|---|
+| Authorization & Scope | Green | High | Boundaries, stakeholders, and approval conditions are documented |
+| Asset Inventory | Green | High | Critical systems and business dependencies are mapped |
+| Threat Modeling | Green | High | Realistic attack narratives and ATT&CK mapping are in place |
+| Identity & Access Review | Amber | Medium | Control quality is under test and needs deeper validation |
+| Detection Coverage | Amber | Medium | Alertability and response quality are being evaluated |
+| Lateral Movement Review | Amber | Medium | Trust boundaries and movement paths require close review |
+| Evidence Quality | Green | High | Artifacts, records, and notes are organized and traceable |
+| Executive Reporting | Green | High | Templates and summary paths are prepared |
+| Remediation Planning | Amber | Medium | Priorities are identified and being organized |
 
-## Operational Workflow
+## Engagement Flow
 
 ```text
-Scope Validation
-      ↓
+Authorization & Scope
+        ↓
 Asset Inventory & Discovery
-      ↓
+        ↓
 Threat-Informed Planning
-      ↓
-Identity / Access / Exposure Review
-      ↓
-Post-Compromise & Movement Validation
-      ↓
-Detection Engineering Review
-      ↓
+        ↓
+Identity / Access / Exposure Validation
+        ↓
+Post-Compromise Review
+        ↓
+Lateral Movement & Persistence Review
+        ↓
+Detection & Defensive Validation
+        ↓
 Risk Prioritization & Reporting
-      ↓
+        ↓
 Remediation Tracking & Revalidation
 ```
 
-## Risk and Control Board
+## Operational Snapshot
 
-| Control Domain | Current State | Risk Level | Action |
+| Control Area | Current State | Risk Level | Follow-Up |
 |---|---|---|---|
-| Identity & Access | Under review | High | Strengthen privilege and trust validation |
-| Endpoint Visibility | Stable | Medium | Improve telemetry and alert fidelity |
-| Network Segmentation | Moderate | Medium | Review movement boundaries and containment |
-| Cloud / SaaS Controls | Under review | Medium | Validate tenant protections and identities |
-| Detection Coverage | In progress | Medium | Improve signal quality and priority labeling |
-| Evidence Quality | Good | Low | Continue structured capture and validation |
+| Identity & Access | Under review | High | Validate privileged access boundaries and trust assumptions |
+| Endpoint Visibility | Stable | Medium | Improve detection fidelity and alert context |
+| Network Segmentation | Moderate | Medium | Review containment coverage and trust pathways |
+| Cloud / SaaS Protections | Under review | Medium | Validate control effectiveness and account hygiene |
+| Threat Detection | In progress | Medium | Review high-value detections and tuning gaps |
+| Evidence Management | Good | Low | Maintain structured recordkeeping and traceability |
+| Reporting Pipeline | Ready | Low | Continue structured summaries and executive-ready outputs |
 
-## Key Activity Indicators
+## KPIs and Delivery Indicators
 
-| Indicator | Current Value | Target |
+| Metric | Current Value | Target |
 |---|---:|---:|
 | In-scope assets reviewed | 18 | 18+ |
 | Critical systems mapped | 7 | 7+ |
-| Identity controls assessed | 100% | 100% |
+| Identity reviews completed | 100% | 100% |
 | Detection coverage reviewed | 80% | 100% |
+| Technical findings drafted | 5 | 7+ |
 | Executive updates delivered | 2 | 4+ |
 | Remediation actions triaged | 6 | 8+ |
+| Final report readiness | 70% | 100% |
 
-## Engagement Milestones
+## Workstream Board
 
-| Phase | Owner | Status | Target Date |
+| Workstream | Lead | Status | Notes |
 |---|---|---|---|
-| Authorization & Scope Confirmation | Security Lead | Complete | Completed |
-| Asset Inventory | Red Team Lead | Complete | Completed |
-| Threat Narrative & ATT&CK Mapping | Analyst | Complete | Completed |
-| Validation Execution | Operations Team | In Progress | Ongoing |
-| Detection & Response Review | Blue Team Liaison | In Progress | Ongoing |
-| Executive Summary Draft | Lead Analyst | Pending | Next cycle |
-| Remediation Review | Security Lead | Pending | After report delivery |
+| Scope Validation | Security Lead | Complete | Authorization and boundaries confirmed |
+| Asset Inventory | Red Team Lead | Complete | Systems, owners, and dependencies mapped |
+| Threat Narrative | Analyst | Complete | ATT&CK alignment and realistic adversary pathing completed |
+| Access / Identity Review | Operations Team | In Progress | Key trust and privilege assumptions are under review |
+| Post-Compromise Review | Red Team Lead | In Progress | Containment and visibility are being evaluated |
+| Detection Quality Review | Blue Team Liaison | In Progress | Focus on signal quality and response clarity |
+| Executive Reporting | Lead Analyst | In Progress | Summary and leadership-ready outputs are being assembled |
+| Remediation Review | Security Lead | Pending | Will follow final findings consolidation |
 
-## High-Value Findings Queue
+## Risk Register
 
-| Priority | Finding Area | Summary | Severity |
+| Priority | Area | Summary | Severity |
 |---|---|---|---|
-| P1 | Identity & Access | Weaknesses in trust or privilege assumptions require immediate review | High |
-| P2 | Detection Coverage | Alert quality and context require refinement | Medium |
-| P3 | Segmentation | Lateral movement controls need validation and hardening | Medium |
-| P4 | Evidence Practices | Standardized capture and labeling should be reinforced | Low |
+| P1 | Identity & Access | Weaknesses in trust and privilege assumptions could materially increase exposure | High |
+| P2 | Detection & Alerting | Some alert logic lacks precision or business context | Medium |
+| P3 | Segmentation & Movement | Lateral movement and containment boundaries require deeper validation | Medium |
+| P4 | Evidence Standardization | Continued structure improvements will strengthen traceability and review quality | Low |
+
+## Evidence and Control Review
+
+### Evidence Quality
+
+- Artifacts are captured and labeled consistently.
+- Observations remain tied to time, environment, and business context.
+- Records support technical findings and executive communication.
+- Assumptions and limitations are clearly documented.
+
+### Control Coverage
+
+- Identity protections are under active review.
+- Detection quality is being assessed for usefulness and context.
+- Segmentation and trust boundaries are being validated for resilience.
+- Reporting quality remains strong and consistently aligned to business risk.
 
 ## Operational Guardrails
 
-- Authorization remains the governing condition for all activity.
-- Evidence capture is mandatory for every material observation.
-- Out-of-scope assets remain excluded at all times.
-- Reporting must connect technical findings to business impact.
-- No action proceeds without clear purpose, validation path, and risk review.
+- All activity remains within approved scope and authorization boundaries.
+- Evidence capture remains mandatory for each material observation.
+- Out-of-scope systems remain excluded throughout the engagement.
+- Reporting must tie technical findings to business consequence.
+- No work proceeds without a clear objective and validation pathway.
 
-## Command and Reporting View
+## Decision Support View
 
-### Technical Reporting
+### Technical Decision View
 
-- Validate observations against scope and environment context.
-- Record business impact and exploitation likelihood.
-- Capture evidence in a traceable, reviewable structure.
+- Confirm that all observations are traceable to evidence and environment context.
+- Assign severity based on business impact, exploitability, and control failure.
+- Focus on actions that materially improve resilience and response quality.
 
-### Executive Reporting
+### Executive Decision View
 
-- Summarize risk and impact in business terms.
-- Highlight operational exposure and control gaps.
-- Present remediation priorities with urgency and rationale.
-
-## Final Operational Position
-
-This engagement is progressing with a clear structure, strong scoping, and measurable technical review. The current risk posture is manageable, but the most important work remains in control validation, detection quality, and business-impact communications. The next stage should focus on completing validation, finalizing the evidence narrative, and translating findings into actionable remediation with follow-up validation.
+- Summarize the most important business-impact observations.
+- Prioritize remediation based on operational impact and urgency.
+- Provide clear next steps and revalidation timeframes.
 
 ## Recommended Next Actions
 
-1. Complete the remaining validation tasks for identity and access boundaries.
-2. Review detection coverage and alert quality against realistic adversary patterns.
-3. Consolidate technical findings into the executive summary and remediation plan.
-4. Prioritize remediation based on operational impact and business consequence.
-5. Schedule a revalidation cycle after mitigation to confirm improvement.
+1. Complete the remaining identity and access validation tasks.
+2. Review detection fidelity and alert context against realistic adversary patterns.
+3. Validate lateral movement and containment assumptions within trust boundaries.
+4. Consolidate evidence into final technical and executive reporting outputs.
+5. Prioritize remediation activities based on severity and business consequence.
+6. Schedule a follow-up validation cycle after mitigation to confirm improvement.
+
+## Final Operational Position
+
+The engagement remains well structured and operationally disciplined. The core foundations are in place, and the project has maintained a clear path from scoping to evidence capture and reporting. The remaining work is centered on validating the most important control surfaces, improving signal quality, and translating technical outcomes into a crisp remediation and follow-up plan.
+
+This is a mature engagement posture: disciplined, risk-aware, and grounded in evidence rather than noise.
 
