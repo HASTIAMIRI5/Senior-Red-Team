@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Proficina Logo</title>
+  <desc id="desc">Professional red-team and defensive validation branding</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#0c1226"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)" rx="18"/>
+  <g transform="translate(70,60)">
+    <rect x="0" y="0" width="260" height="260" rx="28" fill="#10192d" stroke="url(#glow)" stroke-width="3"/>
+    <path d="M52 62 L130 62 L175 124 L130 186 L52 186 L95 124 Z" fill="none" stroke="url(#glow)" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M95 124 L130 124" stroke="#dbeafe" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="130" cy="124" r="12" fill="#dbeafe"/>
+    <path d="M52 62 L52 186" stroke="#dbeafe" stroke-opacity="0.55" stroke-width="4"/>
+    <path d="M175 124 L210 68" stroke="#dbeafe" stroke-opacity="0.7" stroke-width="4"/>
+    <path d="M175 124 L210 180" stroke="#dbeafe" stroke-opacity="0.7" stroke-width="4"/>
+  </g>
+  <g transform="translate(380,115)">
+    <text x="0" y="70" font-size="76" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#f8fafc">PROFICINA</text>
+    <text x="0" y="140" font-size="28" font-family="Segoe UI, Arial, sans-serif" fill="#afc7ff" letter-spacing="4">SENIOR RED TEAM • DEFENSIVE VALIDATION</text>
+    <rect x="0" y="172" width="520" height="5" fill="url(#glow)" rx="3"/>
+    <text x="0" y="225" font-size="26" font-family="Segoe UI, Arial, sans-serif" fill="#dbeafe">Threat-informed operations • evidence-driven security</text>
+  </g>
+</svg>
+
