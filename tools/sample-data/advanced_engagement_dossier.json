@@ -1,0 +1,76 @@
+# Adversary Emulation Dossier Template
+
+## Overview
+
+- organization: [name]
+- engagement period: [start date] to [end date]
+- assessment lead: [name]
+- scope: [summary]
+- objects reviewed: [systems, identities, services, or environments]
+
+## Executive Overview
+
+[High-level summary of mission, objective, and key result]
+
+## Threat Narrative
+
+- adversary profile: [description]
+- likely goals: [summary]
+- realistic path: [how the adversary might operate]
+- likely business impact: [business consequence]
+
+## Scope and Constraints
+
+- in-scope systems: [list]
+- out-of-scope systems: [list]
+- limitations and assumptions: [summary]
+- authorization boundaries: [summary]
+
+## Validation Sequence
+
+1. reconnaissance and inventory
+2. identity and access review
+3. post-compromise and privilege review
+4. lateral movement and persistence assessment
+5. detection quality and defensive validation
+6. reporting and remediation guidance
+
+## Observed Results
+
+### Area 1: Identity and Access
+
+- observation: [summary]
+- impact: [summary]
+- evidence: [source or notes]
+- recommendation: [action]
+
+### Area 2: Detection and Response
+
+- observation: [summary]
+- impact: [summary]
+- evidence: [source or notes]
+- recommendation: [action]
+
+### Area 3: Lateral Movement and Containment
+
+- observation: [summary]
+- impact: [summary]
+- evidence: [source or notes]
+- recommendation: [action]
+
+## Risk Summary
+
+- overall risk: [low / moderate / high / critical]
+- priority concern: [summary]
+- reason for urgency: [summary]
+
+## Recommended Priorities
+
+1. [priority action]
+2. [priority action]
+3. [priority action]
+
+## Closeout
+
+[Final assessment summary and next validation step]
+

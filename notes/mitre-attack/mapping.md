@@ -1,34 +1,43 @@
-# Executive Briefing Template
+# Operational Dashboard
 
-## Briefing Overview
+This dashboard summarizes the core structure of a professional red-team or defensive validation engagement.
 
-This briefing summarizes the most relevant outcomes from the assessment and highlights the organization’s current risk posture.
+## Engagement Overview
 
-## Executive Message
+- status: active / complete / remediation review
+- objective: threat-informed validation and control effectiveness review
+- scope: identity, endpoint, network, cloud, and application attack surface as applicable
+- business focus: risk reduction, resilience, detection quality, and response readiness
 
-- Objective: [Purpose of the engagement]
-- Scope: [Primary systems or areas reviewed]
-- Result: [High-level outcome]
+## Workflow
 
-## Key Observations
+| Phase | Focus | Primary Output |
+|---|---|---|
+| Authorization & Scope | Governance and boundaries | Approved engagement scope |
+| Inventory & Recon | Asset understanding | Asset map and assumptions |
+| Threat Planning | Realistic adversary framing | Test plan and ATT&CK alignment |
+| Validation | Identity, access, and control review | Observations and technical evidence |
+| Detection Review | Defensive effectiveness | Detection coverage assessment |
+| Reporting | Impact and remediation | Technical findings and executive summary |
+| Closeout | Follow-up and improvements | Remediation priorities and review plan |
 
-- [Observation 1]
-- [Observation 2]
-- [Observation 3]
+## Focus Areas
 
-## Risk Snapshot
+- identity and access posture
+- exposed attack surface and asset importance
+- privilege and trust boundary review
+- detection quality and response alignment
+- business-impact awareness and remediation planning
 
-- Overall risk: [Low / Moderate / High / Critical]
-- Primary concern: [Summary]
-- Most affected business functions: [List]
+## Key Performance Indicators
 
-## Recommended Actions
+- scope clarity and authorization completeness
+- evidence quality and reproducibility
+- detection quality and response usefulness
+- severity and risk prioritization quality
+- remediation and follow-up validation readiness
 
-1. Prioritize [area]
-2. Improve [control or visibility gap]
-3. Conduct follow-up validation in [timeframe]
+## Senior Note
 
-## Closing Statement
-
-The organization should treat the findings as an opportunity to strengthen resilience, improve detection quality, and reduce response friction before adversary behavior becomes operationally significant.
+A mature security operation is measured by the clarity of its process and the usefulness of its output. The strongest teams build structure that makes risk understandable, actionable, and defendable.
 
