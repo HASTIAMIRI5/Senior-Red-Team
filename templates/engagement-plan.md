@@ -1,8 +1,8 @@
 # MITRE ATT&CK Mapping Notes
 
-This file provides a high-level mapping between common red-team validation objectives and ATT&CK-aligned tactics.
+This document provides a structured link between common red-team validation objectives and ATT&CK-aligned tactics.
 
-## Common Tactics
+## Core Tactics
 
 - Reconnaissance
 - Resource Development
@@ -23,14 +23,14 @@ This file provides a high-level mapping between common red-team validation objec
 
 | Objective | ATT&CK Tactic | Typical Validation Question |
 |---|---|---|
-| External discovery | Reconnaissance | What assets are discoverable and exposed? |
-| Credential testing | Credential Access | Are identity controls resilient to common abuse patterns? |
-| Privilege abuse | Privilege Escalation | Are boundaries and protections effective? |
-| Persistence | Persistence | Can suspicious persistence survive system resets or reboots? |
-| Lateral movement | Lateral Movement | Are trust relationships monitored and constrained? |
-| Exfiltration review | Exfiltration | Are suspicious data flows visible and attributable? |
+| external reconnaissance | Reconnaissance | What is visible to an external threat actor? |
+| identity validation | Credential Access | Are identity controls strong enough to resist common abuse paths? |
+| server and account access review | Privilege Escalation | Are privilege boundaries effective and observable? |
+| persistence and foothold review | Persistence | Can suspicious persistence be detected and contained? |
+| movement across trust boundaries | Lateral Movement | Are trust relationships constrained and monitored? |
+| exfiltration review | Exfiltration | Are suspicious data paths visible and attributable? |
 
-## Operator Guidance
+## Senior Guidance
 
-Map every test to both business impact and tactical understanding. Reporting is stronger when a finding connects code, control, and attacker behavior in a single narrative.
+Map findings to both business impact and adversary tradecraft. This makes the output more credible, more useful to defenders, and more actionable for executive stakeholders.
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a concise engagement summary from structured input.
-
-This script is intentionally lightweight and safe; it is designed to help
-security teams summarize engagement metadata, business context, and findings.
-"""
+"""Generate a concise engagement summary from a structured JSON payload."""
 
 from __future__ import annotations
 
@@ -15,7 +11,7 @@ from pathlib import Path
 def build_summary(data: dict) -> str:
     client = data.get("client", "[Client]")
     timeframe = data.get("timeframe", "[Date Range]")
-    objective = data.get("objective", "Validate defensive controls and adversary emulation readiness.")
+    objective = data.get("objective", "Validate resilience and defensive control coverage.")
     risk = data.get("risk_rating", "Moderate")
     findings = data.get("findings", [])
 
@@ -26,27 +22,27 @@ def build_summary(data: dict) -> str:
         f"- Objective: {objective}",
         f"- Risk Rating: {risk}",
         "",
-        "## Summary",
-        "This assessment reviewed the organization’s operational resilience, defensive coverage, and alignment to realistic adversary behavior within the approved scope.",
+        "## Overview",
+        "This assessment reviewed operational resilience, control effectiveness, and the organization’s alignment with realistic adversary behavior within the approved scope.",
         "",
         "## Key Findings",
     ]
 
     if findings:
-        for idx, item in enumerate(findings, 1):
-            title = item.get("title", f"Finding {idx}")
+        for i, item in enumerate(findings, 1):
+            title = item.get("title", f"Finding {i}")
             severity = item.get("severity", "Medium")
             summary = item.get("summary", "No summary provided.")
-            lines.append(f"{idx}. {title} ({severity}) - {summary}")
+            lines.append(f"{i}. {title} ({severity}) - {summary}")
     else:
-        lines.append("- No findings recorded in the provided data set.")
+        lines.append("- No findings recorded in the supplied data set.")
 
     return "\n".join(lines) + "\n"
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate a red-team engagement summary.")
-    parser.add_argument("input", nargs="?", help="Path to JSON file with engagement metadata.")
+    parser.add_argument("input", nargs="?", help="Path to a JSON file with engagement metadata.")
     parser.add_argument("--output", help="Output markdown path.")
     args = parser.parse_args()
 
@@ -57,11 +53,11 @@ def main() -> None:
         sample = {
             "client": "Example Organization",
             "timeframe": "2026-10-01 to 2026-10-15",
-            "objective": "Assess defensive detection coverage and adversary validation readiness.",
+            "objective": "Assess security control coverage and adversary emulation readiness.",
             "risk_rating": "High",
             "findings": [
-                {"title": "Credential and access boundary review", "severity": "High", "summary": "Identity protections require further validation and hardening."},
-                {"title": "Detection engineering coverage", "severity": "Medium", "summary": "Key attack patterns require clearer visibility and alerting logic."}
+                {"title": "Identity and access validation", "severity": "High", "summary": "Access boundaries require stronger control validation and review."},
+                {"title": "Detection engineering coverage", "severity": "Medium", "summary": "Key adversary patterns are present but alerting quality needs refinement."}
             ],
         }
         content = build_summary(sample)

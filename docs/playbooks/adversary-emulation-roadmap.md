@@ -1,45 +1,46 @@
 # Engagement Management Playbook
 
-This playbook provides a structured approach for managing red-team engagements from initial scoping to final remediation review.
+This playbook outlines how to manage a security engagement responsibly and professionally from planning to closeout.
 
 ## 1. Pre-Engagement Phase
 
-- Confirm legal and contractual approval
-- Define testing objective, business context, and stakeholders
-- Prepare engagement timeline and communication plan
-- Validate whether in-scope assets include identity, endpoint, network, or cloud layers
-- Capture environment diagrams and key dependencies
+- confirm authorization and contractual boundaries
+- define business objectives and senior stakeholder expectations
+- identify testing time windows and change-control rules
+- map in-scope systems, identities, and data flows
+- gather architecture context, dependency maps, and operational notes
 
-## 2. Planning and Authorizations
+## 2. Planning and Governance
 
-- Document purposes, exclusions, and safety constraints
-- Establish emergency stop criteria
-- Confirm contact framework with internal defenders and customer leadership
-- Define evidence, reporting, and communication cadence
+- define success criteria and report scope
+- confirm escalation contacts and communication cadence
+- review detection coverage and defensive touchpoints
+- validate environment constraints and safety boundaries
+- finalize risk posture and working assumptions
 
 ## 3. Execution Phase
 
-- Conduct reconnaissance and asset validation
-- Map attack surface and priority targets
-- Validate identity and access design
-- Test defensive coverage across endpoint, network, and cloud telemetry
-- Prioritize findings by business impact and exploitability
+- conduct asset inventory and reconnaissance
+- validate attack surface and critical trust paths
+- test identity, access, and exposure controls
+- evaluate detection quality and defensive response patterns
+- prioritize findings based on impact and evidence quality
 
-## 4. Follow-Up and Collaboration
+## 4. Working Coordination
 
-- Review findings with stakeholders
-- Validate whether detections are functioning as expected
-- Capture control gaps and appropriate remediation priorities
-- Update the risk narrative as evidence matures
+- provide structured progress updates to stakeholders
+- document assumptions and emerging risks in real time
+- confirm whether changes in scope or environment require reauthorization
+- maintain clarity around defense and business impact throughout execution
 
-## 5. Closeout
+## 5. Closeout and Follow-Up
 
-- Finalize executive summary and technical report
-- Document residual risk and probable next actions
-- Retain evidence and summarize engagement outcomes
-- Provide recommendations for future validation cycles
+- validate and consolidate findings
+- publish an executive-ready summary and technical narrative
+- identify remediation owners and review timing
+- provide a final status report and next-step guidance
 
 ## Senior Operator Principle
 
-The value of a red-team engagement is not simply discovering a weakness; it is converting that weakness into a clear, prioritized risk story that defenders can use to improve resilience.
+The strongest engagement outcomes are not the most aggressive ones; they are the ones that combine strong tradecraft, disciplined execution, and actionable risk communication.
 

@@ -6,35 +6,35 @@ This report summarizes the results of the security assessment performed for [Org
 
 ## Assessment Objectives
 
-- Validate the effectiveness of identity, endpoint, network, and cloud security controls
-- Assess exposure to realistic adversary tactics and tradecraft
-- Identify control gaps impacting business risk and operational resilience
+- assess the effectiveness of identity, endpoint, network, and cloud controls
+- validate alignment with realistic adversary tradecraft
+- identify control gaps that materially affect business risk
 
 ## Overall Risk Assessment
 
 - Overall risk rating: [Low / Moderate / High / Critical]
-- Primary concern: [Brief risk summary]
-- Impacted business services: [List relevant services]
+- Primary concern: [Brief summary]
+- Impacted business functions: [List relevant services or business areas]
 
 ## Key Findings
 
 1. [Finding title]
    - Risk: [Severity]
-   - Impact: [Business consequence]
-   - Evidence: [brief validation summary]
+   - Business impact: [Description]
+   - Evidence: [Operational summary]
 
 2. [Finding title]
    - Risk: [Severity]
-   - Impact: [Business consequence]
-   - Evidence: [brief validation summary]
+   - Business impact: [Description]
+   - Evidence: [Operational summary]
 
 ## Recommended Priorities
 
-1. [Urgent remediation action]
-2. [Priority improvement area]
-3. [Longer-term resilience recommendation]
+1. [Immediate remediation action]
+2. [Priority control improvement]
+3. [Long-term security objective]
 
 ## Conclusion
 
-The security posture reflects [summary]. Immediate action should focus on [priority area], followed by [secondary improvements].
+The security posture reflects [summary]. Immediate attention should be directed toward [priority area], followed by [secondary improvement area] to improve resilience and response quality.
 

@@ -1,35 +1,34 @@
-# Persistence and Lateral Movement Validation
+# Executive Briefing Template
 
-This lab focuses on controlled validation of persistence techniques and movement pathways within authorized boundaries.
+## Briefing Overview
 
-## Objectives
+This briefing summarizes the most relevant outcomes from the assessment and highlights the organization’s current risk posture.
 
-- Evaluate how an attacker could maintain access after initial foothold
-- Assess lateral movement opportunities and trust relationships
-- Review detection quality for suspicious operational behavior
-- Prioritize changes that improve visibility and resilience
+## Executive Message
 
-## Topics Covered
+- Objective: [Purpose of the engagement]
+- Scope: [Primary systems or areas reviewed]
+- Result: [High-level outcome]
 
-- Privilege boundaries
-- Trust relationships and service account exposure
-- Control coverage for suspicious execution and access patterns
-- Segmentation and identity isolation quality
+## Key Observations
 
-## Suggested Validation Narrative
+- [Observation 1]
+- [Observation 2]
+- [Observation 3]
 
-- Establish foothold in an isolated, controlled test context
-- Review how quickly suspicious activity is visible to defenders
-- Test whether privileges and lateral movement are constrained
-- Confirm whether detections trigger with useful context and correct alerting logic
+## Risk Snapshot
 
-## Final Deliverable
+- Overall risk: [Low / Moderate / High / Critical]
+- Primary concern: [Summary]
+- Most affected business functions: [List]
 
-A normalized summary that captures:
+## Recommended Actions
 
-- Starting access path
-- Lateral movement opportunities
-- Persistence observations
-- Detection coverage and response implications
-- High-priority remediation actions
+1. Prioritize [area]
+2. Improve [control or visibility gap]
+3. Conduct follow-up validation in [timeframe]
+
+## Closing Statement
+
+The organization should treat the findings as an opportunity to strengthen resilience, improve detection quality, and reduce response friction before adversary behavior becomes operationally significant.
 

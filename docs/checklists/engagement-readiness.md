@@ -1,25 +1,34 @@
 # Documentation Center
 
-This section contains the operational foundation for a professional red-team engagement.
+This section provides the core operational guidance for a professional security engagement, from initial scoping through final reporting and remediation review.
+
+## Focus Areas
+
+- engagement readiness
+- operational security and evidence handling
+- planning and management procedures
+- adversary emulation and validation workflows
+- reporting frameworks for both technical and executive audiences
 
 ## Included Documents
 
-- `checklists/engagement-readiness.md` — defines the required pre-engagement validation checklist
-- `checklists/operational-security-checklist.md` — covers operational security and evidence handling
-- `playbooks/engagement-management.md` — outlines service, stakeholder, and execution management
-- `playbooks/adversary-emulation-roadmap.md` — structures realistic adversary validation activities
-- `reports/executive-summary-template.md` — concise leadership-ready report format
-- `reports/technical-finding-template.md` — technical and evidence-based finding structure
+- `checklists/engagement-readiness.md` — pre-engagement readiness and governance points
+- `checklists/operational-security-checklist.md` — operational security and evidence best practices
+- `playbooks/engagement-management.md` — engagement lifecycle and stakeholder coordination
+- `playbooks/adversary-emulation-roadmap.md` — realistic threat-informed validation workflow
+- `reports/executive-summary-template.md` — leadership-ready summary format
+- `reports/technical-finding-template.md` — structured technical finding template
+- `briefings/executive-briefing-template.md` — concise executive briefing structure
 
-## Documentation Philosophy
+## Operational Philosophy
 
-The best security work is:
+High-quality security work is defined by:
 
-- Evidence-driven
-- Methodical
-- Clear in assumptions and scope
-- Focused on risk and business consequence
-- Aligned with control validation and detection engineering
+- clear scope and assumptions
+- disciplined execution
+- defensible evidence
+- business-context-aware reporting
+- focus on defense and resilience
 
-Use this material as a reusable framework for operational maturity and reporting quality.
+Use these materials as a reusable framework for mature, professional engagement delivery.
 

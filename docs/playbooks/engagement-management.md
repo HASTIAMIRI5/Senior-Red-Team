@@ -1,39 +1,38 @@
 # Operational Security Checklist
 
-Operational security is one of the most important differentiators between weak and mature red-team execution.
+Operational security is foundational to credible, mature red-team execution.
 
 ## Core Controls
 
-- [ ] Use approved infrastructure only
-- [ ] Confirm all communications are encrypted and monitored
-- [ ] Validate that test data does not contain real production secrets
-- [ ] Review logging and evidence capture before execution
-- [ ] Keep scope boundaries visible throughout the engagement
-- [ ] Maintain a clear chain of custody for any artifacts
+- [ ] Only approved infrastructure is used
+- [ ] All communications are secured and monitored
+- [ ] Sensitive data is protected and separated from non-production content
+- [ ] Logging and evidence capture are validated before actions begin
+- [ ] Scope and stop conditions remain visible to the team throughout the engagement
 
-## Daily Hygiene
+## Daily Execution Hygiene
 
-- [ ] Confirm current objective and stop conditions
-- [ ] Record time, task, and tool use in a runbook
-- [ ] Verify no out-of-scope assets are touched
-- [ ] Ensure team members understand the engagement narrative
-- [ ] Review any environment changes that may affect safety or detection
+- [ ] Current objective and risk context are reviewed before each activity
+- [ ] Task and tool usage are logged in a controlled manner
+- [ ] Out-of-scope systems remain excluded
+- [ ] Unexpected changes to the environment are escalated promptly
+- [ ] Defensive team and client stakeholders are informed as required
 
 ## Evidence Handling
 
-- [ ] Capture screenshot, log, and note evidence in a controlled location
-- [ ] Label findings by timestamp, asset, and severity
-- [ ] Preserve original artifacts and document any transformations
-- [ ] Keep internal notes separate from client-facing reports
+- [ ] Screenshots, logs, and notes are stored in a consistent structure
+- [ ] Artifacts are labeled with time, environment, and context
+- [ ] Original evidence is retained and protected
+- [ ] Report-facing content is curated separately from internal notes
 
 ## Risk Controls
 
-- [ ] Maintain a fail-safe for emergency stop
-- [ ] Validate escalation contact chain
-- [ ] Avoid actions that may cause service degradation
-- [ ] Segregate test traffic from normal operations where possible
+- [ ] Emergency stop paths are documented and tested
+- [ ] Contact chain for escalation is known and current
+- [ ] Service degradation and operational fallout are actively minimized
+- [ ] Actions remain aligned to approved objectives and constraints
 
-## Final Check
+## Final Verification
 
-If the engagement cannot be explained clearly, justified by policy, and defended by evidence, it is not ready to proceed.
+Any action that cannot be clearly explained, justified in approved scope, and supported by evidence should be questioned before execution.
 

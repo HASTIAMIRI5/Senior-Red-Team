@@ -2,39 +2,28 @@
 
 ## Senior Red Team, Adversary Emulation, and Defensive Validation
 
-Proficina is a polished, senior-level red-team repository designed for operational clarity, professional reporting, and realistic adversary simulation. It is built to support authorized security engagements, defensive validation, and structured technical collaboration across planning, execution, documentation, and remediation.
+Proficina is a high-trust, professional red-team operations repository designed for authorized security testing, adversary emulation, detection validation, and executive-grade reporting. It is meant for security teams, consultants, and defensive specialists who need a disciplined structure for engagement execution, controlled validation, and measurable outcomes.
 
-This repository emphasizes professional tradecraft, disciplined operations, and executive-friendly reporting without compromising legal and ethical boundaries.
+This repository emphasizes operational rigor, threat-informed execution, evidence quality, and the communication of risk in a way that supports both technical and executive stakeholders.
 
 ## Mission
 
 To provide a mature framework for:
 
-- Engagement planning and scoping
-- Threat-informed testing and validation
-- Reconnaissance and asset discovery
-- Defensive control testing and detection validation
-- Adversary emulation aligned to realistic TTPs
-- Detailed reporting and remediation prioritization
+- engagement planning and scoping
+- adversary emulation and realistic scenario validation
+- reconnaissance and asset discovery
+- identity and access testing
+- defensive control validation and detection engineering
+- risk communication and remediation prioritization
 
-## Core Operational Principles
+## Core Principles
 
-- Stay threat-informed and methodical
-- Validate scope and legal authorization before any action
-- Maintain clean evidence and chain-of-custody discipline
-- Align testing to real-world adversary behavior
-- Prioritize detection, prevention, and resilience
-- Report with context, risk, and business impact
-
-## What This Repository Includes
-
-- Engagement planning templates and governance checklists
-- Red-team playbooks and operational workflows
-- Technical validation checklists
-- Executive and engineering reporting structures
-- Safe, operationally useful automation scripts for validation workflows
-- MITRE ATT&CK-aligned notes and structured threat mappings
-- Visual diagrams and reusable assets
+- Authorization, scope, and legal boundaries come first
+- Every action should be evidence-driven and defensible
+- Testing should mirror realistic adversary behavior while remaining controlled
+- Defensive value matters as much as offensive discovery
+- Reporting should answer business risk, technical detail, and remediation priority
 
 ## Repository Structure
 
@@ -43,6 +32,7 @@ To provide a mature framework for:
 ├── README.md
 ├── LICENSE
 ├── assets/
+│   ├── brand-guide.md
 │   ├── logo.svg
 │   └── operations-overview.svg
 ├── docs/
@@ -51,11 +41,13 @@ To provide a mature framework for:
 │   │   ├── engagement-readiness.md
 │   │   └── operational-security-checklist.md
 │   ├── playbooks/
-│   │   ├── engagement-management.md
-│   │   └── adversary-emulation-roadmap.md
-│   └── reports/
-│       ├── executive-summary-template.md
-│       └── technical-finding-template.md
+│   │   ├── adversary-emulation-roadmap.md
+│   │   └── engagement-management.md
+│   ├── reports/
+│   │   ├── executive-summary-template.md
+│   │   └── technical-finding-template.md
+│   └── briefings/
+│       └── executive-briefing-template.md
 ├── labs/
 │   ├── recon/
 │   │   └── README.md
@@ -80,76 +72,64 @@ To provide a mature framework for:
 └── .gitignore
 ```
 
-## Red Team Lifecycle
+## Operational Lifecycle
 
-1. Scope definition and authorization
-2. Intelligence gathering and asset inventory
-3. Attack surface analysis and risk prioritization
-4. Initial access and foothold validation
-5. Credential and privilege validation
-6. Lateral movement and persistence testing
-7. Detection engineering and defensive validation
-8. Reporting, remediation guidance, and executive communication
+1. Authorization and scoping
+2. Asset inventory and attack-surface review
+3. Threat-informed planning and ATT&CK mapping
+4. Validation of identity, access, and exposure paths
+5. Detection engineering and defensive validation
+6. Evidence capture and risk prioritization
+7. Technical and executive reporting
+8. Closeout, remediation guidance, and follow-up validation
 
 ## Threat Model Alignment
 
-This repository aligns operationally with:
+The repository is intentionally aligned with strategic frameworks commonly used by professional security practitioners, including:
 
 - MITRE ATT&CK
-- Lockheed Martin kill chain
+- Cyber Kill Chain
 - Diamond Model
-- NIST CSF and RMF concepts
-- Real-world adversary emulation workflows
+- NIST security concepts
+- Real-world adversary behavior and blue-team validation patterns
+
+## Documentation Philosophy
+
+This project is intended to support structured work that is:
+
+- measurable
+- evidence-based
+- clear in assumptions and scope
+- professional in reporting quality
+- aligned to defensive resilience and security operations
+
+## Recommended Use
+
+- Start with `docs/checklists/engagement-readiness.md`
+- Use `templates/engagement-plan.md` for scope and planning
+- Review `docs/playbooks/adversary-emulation-roadmap.md` for validation flow
+- Use the scripts in `tools/scripts/` to standardize summary and validation output
+- Deliver results with `templates/findings-report.md` and `docs/reports/executive-summary-template.md`
+
+## Reporting Standards
+
+Every engagement should produce:
+
+- executive summary
+- technical findings with evidence
+- business impact and risk evaluation
+- prioritized remediation actions
+- residual risk and validation follow-up instructions
 
 ## Ethical Use Statement
 
-This repository is intended for:
-
-- Authorized security testing
-- Defensive validation and detection engineering
-- Security education and professional development
-- Lawful adversary emulation in controlled environments
-
-It must not be used for unauthorized access, credential theft, malware development, or activity outside approved testing scope.
-
-## Quick Start
-
-1. Review `docs/checklists/engagement-readiness.md`
-2. Use `templates/engagement-plan.md` to define scope and goals
-3. Follow the adversary roadmap in `docs/playbooks/adversary-emulation-roadmap.md`
-4. Validate assumptions with the scripts in `tools/scripts/`
-5. Produce final outputs using `templates/findings-report.md`
-
-## Suggested Practical Workflow
-
-- Define objectives and stakeholders
-- Confirm authorized scope and asset inventory
-- Validate environment boundaries and containment
-- Map TTPs to relevant ATT&CK techniques
-- Test controls against realistic scenarios
-- Capture evidence, remediation status, and risk levels
-- Deliver concise findings and executive summary
-
-## Professional Reporting Standards
-
-Every engagement should include:
-
-- Executive summary
-- Technical findings with evidence
-- Impact assessment and risk rating
-- Business context
-- Recommended remediation priorities
-- Residual risk and follow-up actions
+This repository is for authorized security testing, defensive validation, security education, and lawful adversary emulation in controlled environments. It must not be used for unauthorized access, malicious intrusion, credential theft, or any activity outside approved testing scope.
 
 ## Disclaimer
 
-The materials in this repository are for ethical cybersecurity practice, lawful testing, and controlled adversary simulation within authorized environments only. Use responsibly and in compliance with all applicable laws, organizational policies, and client agreements.
-
-## Contact and Operational Use
-
-Use this content as a professional reference package for structured, defensive-minded red-team operations. Adapt it to your environment, review it for compliance, and tailor it to engagement-specific requirements.
+The contents of this repository are intended for ethical cybersecurity practice, authorized testing, and professional security operations within controlled environments. Use responsibly and in compliance with all applicable laws, organizational policy, and client agreements.
 
 ---
 
-"The strongest red-team operators do not chase chaos; they engineer clarity, evidence, and measurable security outcomes."
+"A professional red-team engagement is not a display of chaos; it is a demonstration of control, evidence, and measurable security improvement."
 

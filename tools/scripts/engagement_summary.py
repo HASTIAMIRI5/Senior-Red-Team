@@ -1,21 +1,43 @@
-# Status Report
+# Findings Report
 
-## Snapshot
+## Report Metadata
 
-- Engagement: [Name]
-- Status: [In Progress / Completed / Awaiting Remediation]
-- Current Date: [Date]
+- Client: [Name]
+- Date: [Date]
+- Assessment Type: [Red Team / Security Validation]
+- Lead Analyst: [Name]
 
-## Update
+## Summary
 
-- Completed tasks: [List]
-- Active workstreams: [List]
-- Observations: [Key notes]
-- Risks or blockers: [List]
+[High-level overview of objective, scope, and major outcomes]
 
-## Next Deliverables
+## Scope and Methodology
 
-- [Planned item 1]
-- [Planned item 2]
-- [Planned item 3]
+- In-scope systems: [List]
+- Validation approach: [Threat-informed assessment]
+- Assumptions and limitations: [List]
+
+## Findings
+
+### Finding 1
+
+- Title: [Finding title]
+- Severity: [Severity]
+- Summary: [What was observed]
+- Business impact: [Why it matters]
+- Evidence: [Artifacts, references, or notes]
+- Recommendation: [Actions required]
+
+### Finding 2
+
+- Title: [Finding title]
+- Severity: [Severity]
+- Summary: [What was observed]
+- Business impact: [Why it matters]
+- Evidence: [Artifacts, references, or notes]
+- Recommendation: [Actions required]
+
+## Conclusion
+
+[Overall assessment and key priorities]
 

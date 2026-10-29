@@ -1,67 +1,65 @@
 # Engagement Readiness Checklist
 
-This checklist supports the definition and operational readiness of a red-team or adversary-emulation engagement.
+This checklist supports a disciplined, professional engagement setup before execution begins.
 
 ## 1. Authorization and Scope
 
 - [ ] Written authorization exists
 - [ ] Scope and exclusions are clearly documented
-- [ ] Approved assets and environments are identified
-- [ ] Customer stakeholders are named and contacted
-- [ ] Sensitive systems, out-of-scope environments, and legal boundaries are flagged
+- [ ] Approved asset list is reviewed and signed off
+- [ ] Client or stakeholder contacts are confirmed
+- [ ] Out-of-scope systems or sensitive boundaries are explicitly marked
 
-## 2. Asset Inventory
+## 2. Asset and Dependency Review
 
-- [ ] Critical systems and business services are listed
-- [ ] Inventory includes hosts, applications, identities, and cloud assets
-- [ ] Data classification and handling requirements are documented
-- [ ] Key stakeholders are mapped to relevant assets
+- [ ] Critical systems and data stores are identified
+- [ ] Business owners and operation owners are mapped
+- [ ] Identity, network, endpoint, and cloud dependencies are documented
+- [ ] Known constraints or monitoring controls are reviewed
 
 ## 3. Rules of Engagement
 
-- [ ] Testing windows are approved
-- [ ] Communication paths and escalation contacts are defined
-- [ ] Emergency stop criteria are established
-- [ ] Defensive team contact process is defined
-- [ ] Reporting cadence and audience are agreed
+- [ ] Execution windows are defined
+- [ ] Communication paths are established
+- [ ] Escalation criteria and emergency stop conditions are documented
+- [ ] Defensive team touchpoints and stakeholder contact paths are confirmed
 
 ## 4. Threat Model and Objectives
 
-- [ ] Threat actors or realistic attack scenarios are defined
-- [ ] Business objectives and risk drivers are mapped
-- [ ] ATT&CK-aligned techniques are selected for validation
-- [ ] Success criteria are measurable
+- [ ] Business objective and risk drivers are identified
+- [ ] Threat scenarios are mapped to realistic adversary behavior
+- [ ] ATT&CK or equivalent techniques are chosen for validation
+- [ ] Success criteria are measurable and time-bounded
 
 ## 5. Operational Security
 
-- [ ] C2 or command infrastructure is approved and secured
+- [ ] Approved infrastructure and tooling are validated
 - [ ] Logging and evidence collection plan is documented
-- [ ] Handling of credentials and secrets is defined
-- [ ] Data storage and retention controls are reviewed
+- [ ] Secrets and sensitive outputs are handled securely
+- [ ] Data retention and reporting boundaries are defined
 
-## 6. Control Validation
+## 6. Defensive Validation Readiness
 
-- [ ] Identity protections are reviewed
-- [ ] Endpoint controls are identified
-- [ ] Network detection coverage is reviewed
-- [ ] Cloud or SaaS protections are mapped
-- [ ] Typical detection gaps are documented before execution
+- [ ] Detection and response coverage is reviewed
+- [ ] Identity protections are evaluated
+- [ ] Endpoint visibility and network telemetry are mapped
+- [ ] Technical control gaps or blind spots are documented
 
-## 7. Reporting Readiness
+## 7. Reporting and Governance
 
-- [ ] Technical summary structure is defined
-- [ ] Executive summary format is approved
-- [ ] Remediation owner mapping is prepared
-- [ ] Risk matrix and severity model are available
+- [ ] Executive summary format is prepared
+- [ ] Technical reporting structure is defined
+- [ ] Risk severity model is agreed
+- [ ] Remediation ownership and follow-up process are assigned
 
-## 8. Closeout and Follow-Up
+## 8. Closeout Preparation
 
-- [ ] Findings are validated and triaged
+- [ ] Final report structure is ready
+- [ ] Evidence and notes are organized
 - [ ] Remediation recommendations are prioritized
-- [ ] Final report is reviewed with stakeholders
-- [ ] Lessons learned are captured and incorporated
+- [ ] Post-engagement review cycle is scheduled
 
-## Operational Note
+## Senior Operator Principle
 
-A strong engagement is not measured only by the volume of activity; it is measured by the quality of planning, evidence quality, and clarity of risk communication.
+If the work cannot be explained clearly, justified by policy, and supported by evidence, it is not ready to proceed.
 

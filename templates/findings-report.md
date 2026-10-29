@@ -1,29 +1,41 @@
-# Executive Summary
+# Engagement Plan
 
-## Executive Summary
+## Overview
 
-This assessment evaluated the organization’s ability to detect, withstand, and respond to realistic adversary tradecraft targeting [business/application/domain] during the engagement period.
+- Client / Organization: [Name]
+- Date Range: [Start Date] to [End Date]
+- Engagement Type: [Red Team / Adversary Emulation / Security Validation]
+- Objectives: [Primary goals]
 
-## Summary of Findings
+## Scope
 
-- [Finding 1]
-- [Finding 2]
-- [Finding 3]
+- In-Scope Assets: [List]
+- Out-of-Scope Assets: [List]
+- Constraints: [Time windows, conditions, exclusions, safety assumptions]
 
-## Risk Snapshot
+## Success Criteria
 
-- Current risk rating: [Low / Moderate / High / Critical]
-- Exposure area: [Identity / Endpoint / Cloud / Network / Applications]
-- Primary concern: [One-line summary]
+- [Criteria 1]
+- [Criteria 2]
+- [Criteria 3]
 
-## Business Impact
+## Threat Focus
 
-- [Impacted system or business process]
-- [Potential operational or financial impact]
+- Threat scenarios: [List]
+- ATT&CK techniques to validate: [List]
+- Primary control domains: [Identity / Endpoint / Network / Cloud / Detection]
 
-## Recommended Next Steps
+## Roles and Responsibilities
 
-1. Prioritize remediation for [most urgent area]
-2. Improve detection coverage for [specific behavior]
-3. Validate controls after remediation in [timeframe]
+- Client stakeholders: [List]
+- Defensive stakeholders: [List]
+- Red-team lead: [Name]
+- Reporting owner: [Name]
+
+## Reporting and Review Cadence
+
+- Check-ins: [Schedule]
+- Final draft delivery: [Date]
+- Executive review: [Date]
+- Remediation review: [Date]
 

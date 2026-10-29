@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Validate a list of in-scope systems or assets.
-
-This script is designed to help security teams check whether asset names and
-hostnames follow a consistent format before they are used in an engagement plan.
-"""
+"""Validate a list of assets or hostnames for naming consistency before engagement use."""
 
 from __future__ import annotations
 
@@ -11,19 +7,18 @@ import argparse
 from pathlib import Path
 
 
-def validate_lines(raw: str) -> list[str]:
+def validate_lines(raw: str) -> tuple[list[str], list[str]]:
     accepted = []
     rejected = []
 
     for line in raw.splitlines():
-        entry = line.strip()
-        if not entry or entry.startswith("#"):
+        item = line.strip()
+        if not item or item.startswith("#"):
             continue
-        # Basic host validation: allow letters, digits, dots, hyphens, and underscores.
-        if all(ch.isalnum() or ch in ".-_" for ch in entry):
-            accepted.append(entry)
+        if all(ch.isalnum() or ch in ".-_" for ch in item):
+            accepted.append(item)
         else:
-            rejected.append(entry)
+            rejected.append(item)
 
     return accepted, rejected
 
