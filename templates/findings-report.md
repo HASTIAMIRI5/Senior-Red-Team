@@ -1,41 +1,29 @@
-# Engagement Plan
+# Executive Summary
 
-## Overview
+## Executive Summary
 
-- Client / Organization: [Name]
-- Date Range: [Start Date] to [End Date]
-- Engagement Type: [Red Team / Adversary Emulation / Security Validation]
-- Objectives: [Primary goals]
+This assessment evaluated the organization’s defensive resilience, security posture, and response maturity in relation to realistic adversary behavior across the approved engagement scope.
 
-## Scope
+## Summary of Findings
 
-- In-Scope Assets: [List]
-- Out-of-Scope Assets: [List]
-- Constraints: [Time windows, conditions, exclusions, safety assumptions]
+- [finding 1]
+- [finding 2]
+- [finding 3]
 
-## Success Criteria
+## Risk Snapshot
 
-- [Criteria 1]
-- [Criteria 2]
-- [Criteria 3]
+- current risk rating: [low / moderate / high / critical]
+- exposed area: [identity / endpoint / cloud / network / applications]
+- primary concern: [one-line summary]
 
-## Threat Focus
+## Business Impact
 
-- Threat scenarios: [List]
-- ATT&CK techniques to validate: [List]
-- Primary control domains: [Identity / Endpoint / Network / Cloud / Detection]
+- impacted system or process: [summary]
+- potential business consequence: [summary]
 
-## Roles and Responsibilities
+## Recommended Next Steps
 
-- Client stakeholders: [List]
-- Defensive stakeholders: [List]
-- Red-team lead: [Name]
-- Reporting owner: [Name]
-
-## Reporting and Review Cadence
-
-- Check-ins: [Schedule]
-- Final draft delivery: [Date]
-- Executive review: [Date]
-- Remediation review: [Date]
+1. prioritize remediation for [most urgent finding]
+2. improve coverage for [specific control or detection gap]
+3. validate improvements after remediation in [timeframe]
 

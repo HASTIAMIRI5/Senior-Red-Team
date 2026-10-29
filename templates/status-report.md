@@ -2,42 +2,42 @@
 
 ## Report Metadata
 
-- Client: [Name]
-- Date: [Date]
-- Assessment Type: [Red Team / Security Validation]
-- Lead Analyst: [Name]
+- client: [name]
+- date: [date]
+- assessment type: [red team / adversary emulation / validation]
+- lead analyst: [name]
 
 ## Summary
 
-[High-level summary of the engagement and scope]
+[Overview of scope, objective, and major outcomes]
 
 ## Scope and Methodology
 
-- In-scope systems: [List]
-- Validation approach: [Threat-informed methodology]
-- Limitations and assumptions: [List]
+- in-scope systems: [list]
+- validation approach: [threat-informed assessment]
+- assumptions and limitations: [list]
 
 ## Findings
 
 ### Finding 1
 
-- Title: [Finding title]
-- Severity: [Severity]
-- Summary: [What was discovered]
-- Impact: [Why it matters]
-- Evidence: [Documentation or artifact references]
-- Recommendation: [Action needed]
+- title: [finding title]
+- severity: [severity]
+- summary: [what was observed]
+- business impact: [why it matters]
+- evidence: [artifacts, note references, logs]
+- recommendation: [action required]
 
 ### Finding 2
 
-- Title: [Finding title]
-- Severity: [Severity]
-- Summary: [What was discovered]
-- Impact: [Why it matters]
-- Evidence: [Documentation or artifact references]
-- Recommendation: [Action needed]
+- title: [finding title]
+- severity: [severity]
+- summary: [what was observed]
+- business impact: [why it matters]
+- evidence: [artifacts, note references, logs]
+- recommendation: [action required]
 
 ## Conclusion
 
-[Overall assessment and key priorities]
+[Overall assessment and immediate priorities]
 

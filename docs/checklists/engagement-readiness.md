@@ -1,34 +1,38 @@
 # Documentation Center
 
-This section provides the core operational guidance for a professional security engagement, from initial scoping through final reporting and remediation review.
+This section forms the operational foundation for a disciplined security engagement process.
 
-## Focus Areas
+## Overview
 
-- engagement readiness
-- operational security and evidence handling
-- planning and management procedures
-- adversary emulation and validation workflows
-- reporting frameworks for both technical and executive audiences
+The documentation set is designed to support security teams in moving from planning to execution, reporting, and remediation with consistency and professionalism.
 
-## Included Documents
+## Included Documentation
 
-- `checklists/engagement-readiness.md` — pre-engagement readiness and governance points
-- `checklists/operational-security-checklist.md` — operational security and evidence best practices
-- `playbooks/engagement-management.md` — engagement lifecycle and stakeholder coordination
-- `playbooks/adversary-emulation-roadmap.md` — realistic threat-informed validation workflow
-- `reports/executive-summary-template.md` — leadership-ready summary format
-- `reports/technical-finding-template.md` — structured technical finding template
-- `briefings/executive-briefing-template.md` — concise executive briefing structure
+- `checklists/engagement-readiness.md` — pre-engagement validation checklist
+- `checklists/operational-security-checklist.md` — operational security and evidence handling
+- `playbooks/engagement-management.md` — lifecycle and stakeholder coordination
+- `playbooks/adversary-emulation-roadmap.md` — threat-informed validation flow
+- `reports/executive-summary-template.md` — executive-facing summary template
+- `reports/technical-finding-template.md` — technical finding template
+- `briefings/executive-briefing-template.md` — leadership briefing format
 
-## Operational Philosophy
+## Operating Philosophy
 
-High-quality security work is defined by:
+High-quality security work depends on:
 
 - clear scope and assumptions
-- disciplined execution
-- defensible evidence
-- business-context-aware reporting
-- focus on defense and resilience
+- disciplined execution and escalation paths
+- evidence-based validation
+- defensible technical documentation
+- business-focused risk communication
 
-Use these materials as a reusable framework for mature, professional engagement delivery.
+## Recommended Reading Order
+
+1. `checklists/engagement-readiness.md`
+2. `playbooks/engagement-management.md`
+3. `playbooks/adversary-emulation-roadmap.md`
+4. `reports/technical-finding-template.md`
+5. `reports/executive-summary-template.md`
+
+This sequence creates a practical flow from planning to technical findings and executive communication.
 

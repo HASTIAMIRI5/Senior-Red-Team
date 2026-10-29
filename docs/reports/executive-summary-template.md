@@ -1,50 +1,50 @@
 # Adversary Emulation Roadmap
 
-This roadmap supports professional, threat-informed validation aligned to realistic adversary tradecraft.
+This roadmap supports threat-informed validation grounded in realistic adversary behavior and disciplined execution.
 
-## Stage 1: Reconnaissance and Inventory
+## Stage 1: Reconnaissance and Target Inventory
 
-- define the exposed attack surface
-- validate asset ownership and criticality
-- review externally discoverable exposure patterns
-- establish a prioritized map of business-critical systems
+- inventory exposed or relevant systems
+- validate asset ownership and business criticality
+- identify likely attack surface and critical trust relationships
+- define the initial assessment boundary and assumptions
 
-## Stage 2: Identity and Access Review
+## Stage 2: Identity and Access Validation
 
-- assess authentication posture and identity protections
-- review MFA coverage and policy strength
-- validate credential hygiene and access segmentation
-- understand trust boundaries and exposure pathways
+- review identity protections and access boundaries
+- assess MFA, authentication design, and privilege controls
+- consider where credential exposure or trust assumptions create risk
+- validate whether common access abuse paths could be exploited in realistic scenarios
 
-## Stage 3: Post-Compromise Validation
+## Stage 3: Post-Compromise Analysis
 
-- test whether suspicious activity is visible and attributable
-- assess privilege escalation paths and defensive boundaries
-- review logging, containment, and escalation readiness
-- document how well the environment supports detection and response
+- evaluate how suspicious activity becomes visible to defenders
+- review privilege escalation pathways and detection quality
+- assess whether compromise can be contained or interrupted in time
+- understand how effectively the environment supports response and forensics
 
 ## Stage 4: Lateral Movement and Persistence
 
-- evaluate movement opportunities across trust boundaries
-- assess service account exposure and privilege escalation paths
-- review persistence viability and system hardening posture
-- identify the most important control gaps in segmentation and visibility
+- test movement across relevant trust boundaries
+- assess segmentation effectiveness and service-account exposure
+- review persistence opportunities and their operational impact
+- connect findings to likely attacker objectives and business damage potential
 
-## Stage 5: Data Exposure and Detection Quality
+## Stage 5: Detection and Defensive Validation
 
-- measure whether sensitive data flows are visible and controlled
-- assess exfiltration indicators and alert quality
-- review if suspicious behavior maps to useful detections
-- prioritize improvements to evidence quality and response precision
+- measure whether suspicious behavior is observable and attributable
+- assess alert quality, context richness, and response coverage
+- review whether control gaps are actionable and fixable
+- identify which detections are strong versus weak or noisy
 
-## Stage 6: Reporting and Remediation Guidance
+## Stage 6: Reporting and Remediation
 
-- map findings to business impact and threat realism
-- connect observations to ATT&CK-aligned behaviors
-- provide remediation in priority order
-- give clear recommendations for future validation cycles
+- map findings to business risk and operational consequences
+- align activity to realistic adversary behavior and ATT&CK relevance
+- prioritize remediation based on what matters most to resilience
+- provide a strong path for follow-up validation and continuous improvement
 
-## Guiding Principle
+## Operator Guidance
 
-Threat-informed testing is most valuable when it reflects realistic adversary thinking, not just abstract attack examples.
+The best validation work connects technical behavior to threat realism, defensive usefulness, and business impact.
 

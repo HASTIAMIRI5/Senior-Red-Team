@@ -1,56 +1,24 @@
-#!/usr/bin/env python3
-"""Create a lightweight markdown report from a JSON payload."""
-
-from __future__ import annotations
-
-import argparse
-import json
-from pathlib import Path
-
-
-def render_report(data: dict) -> str:
-    client = data.get("client", "Client")
-    title = data.get("title", "Security Assessment Report")
-    summary = data.get("summary", "No summary provided.")
-    findings = data.get("findings", [])
-
-    lines = [
-        f"# {title}",
-        "",
-        f"**Client:** {client}",
-        "",
-        "## Summary",
-        summary,
-        "",
-        "## Findings",
-    ]
-
-    if findings:
-        for index, item in enumerate(findings, 1):
-            lines.append(f"### {index}. {item.get('title', 'Finding')}")
-            lines.append(f"- Severity: {item.get('severity', 'Medium')}")
-            lines.append(f"- Impact: {item.get('impact', 'Unspecified')}")
-            lines.append(f"- Recommendation: {item.get('recommendation', 'Review and remediate')}")
-            lines.append("")
-    else:
-        lines.append("No findings were supplied in the source data.")
-
-    return "\n".join(lines) + "\n"
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate a markdown report from JSON data.")
-    parser.add_argument("input", help="Path to the input JSON file.")
-    parser.add_argument("--output", help="Path to the markdown output file.")
-    args = parser.parse_args()
-
-    source = Path(args.input)
-    output = Path(args.output) if args.output else Path("generated_report.md")
-    payload = json.loads(source.read_text(encoding="utf-8"))
-    output.write_text(render_report(payload), encoding="utf-8")
-    print(f"Report created at {output}")
-
-
-if __name__ == "__main__":
-    main()
+{
+  "client": "Example Organization",
+  "timeframe": "2026-10-01 to 2026-10-15",
+  "objective": "Evaluate defensive coverage, access validation, and operational resilience against realistic adversary behavior.",
+  "risk_rating": "High",
+  "findings": [
+    {
+      "title": "Identity and access boundary validation",
+      "severity": "High",
+      "summary": "The identity and access structure requires stronger validation against realistic abuse paths and privilege misuse scenarios."
+    },
+    {
+      "title": "Detection engineering coverage",
+      "severity": "Medium",
+      "summary": "Detection logic is present but requires clearer alert context and improved coverage of operationally relevant adversary behavior."
+    },
+    {
+      "title": "Segmentation and trust validation",
+      "severity": "Medium",
+      "summary": "Trust relationships and segmentation boundaries should be reviewed to reduce lateral movement risk and improve containment quality."
+    }
+  ]
+}
 

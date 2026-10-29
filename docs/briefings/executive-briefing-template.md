@@ -2,30 +2,30 @@
 
 ## Finding Title
 
-[Concise title of the issue or vulnerability]
+[Concise issue or weakness title]
 
 ## Summary
 
-[Short explanation of the issue, its context, and what was observed]
+[Describe what was observed, in what context, and why it matters]
 
 ## Evidence
 
-- Asset or scope: [System / identity / service / environment]
-- Observation: [What was discovered]
-- Supporting detail: [Log references, configuration review, screenshots, or technical notes]
-- Impact: [Resulting effect in realistic adversary conditions]
+- asset or scope: [system / environment / service / identity boundary]
+- observation: [what was found]
+- supporting detail: [logs, configuration review, screenshot, validation notes]
+- impact: [business or technical consequence]
 
-## Attack Path or Validation Context
+## Validation Context
 
-- Tactic: [e.g., Credential Access / Lateral Movement / Persistence]
-- Technique: [ATT&CK technique if applicable]
-- Preconditions: [What must be true for the issue to matter]
+- tactic: [e.g., credential access, persistence, lateral movement, privilege escalation]
+- technique: [ATT&CK technique if applicable]
+- preconditions: [requirements or assumptions]
 
-## Risk Assessment
+## Risk Rating
 
-- Severity: [Critical / High / Medium / Low]
-- Likelihood: [High / Medium / Low]
-- Business impact: [Overview of operational and risk consequence]
+- severity: [critical / high / medium / low]
+- likelihood: [high / medium / low]
+- business impact: [summary]
 
 ## Recommended Remediation
 
@@ -33,9 +33,9 @@
 2. [Action 2]
 3. [Action 3]
 
-## Validation Notes
+## Follow-Up Validation
 
-- Re-test after remediation: [Recommended window]
-- Ownership: [Team or role]
-- Related references: [Control documentation, governance notes, or architecture references]
+- retest window: [recommended period]
+- ownership: [team or role]
+- related references: [internal docs, security policy, architecture, or control notes]
 

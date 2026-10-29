@@ -2,38 +2,40 @@
 
 ## Overview
 
-- Client / Organization: [Name]
-- Date Range: [Start Date] to [End Date]
-- Engagement Type: [Red Team / Adversary Emulation / Security Validation]
-- Objectives: [Short list]
+- client / organization: [name]
+- date range: [start date] to [end date]
+- engagement type: [red team / adversary emulation / security validation]
+- stated objectives: [summary]
 
 ## Scope
 
-- In-Scope Assets: [List]
-- Out-of-Scope Assets: [List]
-- Constraints: [Rules, time windows, safety boundaries]
+- in-scope assets: [list]
+- out-of-scope assets: [list]
+- constraints: [time windows, exclusions, safety boundaries]
 
 ## Success Criteria
 
-- [Criteria 1]
-- [Criteria 2]
-- [Criteria 3]
+- [criteria 1]
+- [criteria 2]
+- [criteria 3]
 
 ## Threat Focus
 
-- Threat scenarios: [List]
-- ATT&CK techniques to validate: [List]
-- Key control areas: [IAM, Endpoint, Network, Cloud, Detection]
+- threat scenarios: [list]
+- ATT&CK techniques to review: [list]
+- special control considerations: [IAM / endpoint / network / cloud / detection]
 
-## Responsibilities
+## Roles and Responsibilities
 
-- Customer Stakeholders: [Names and roles]
-- Security Team: [Names and roles]
-- Red Team Lead: [Name]
+- stakeholders: [list]
+- defensive contacts: [list]
+- red-team lead: [name]
+- reporting owner: [name]
 
-## Reporting Cadence
+## Reporting and Review Cadence
 
-- Weekly check-ins: [Yes / No]
-- Final report delivery: [Date]
-- Remediation review: [Date]
+- check-ins: [schedule]
+- draft report: [date]
+- executive review: [date]
+- remediation review: [date]
 

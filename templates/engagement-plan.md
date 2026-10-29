@@ -1,36 +1,34 @@
-# MITRE ATT&CK Mapping Notes
+# Executive Briefing Template
 
-This document provides a structured link between common red-team validation objectives and ATT&CK-aligned tactics.
+## Briefing Context
 
-## Core Tactics
+This briefing summarizes the most important outcomes of the assessment and the current risk posture of the reviewed environment.
 
-- Reconnaissance
-- Resource Development
-- Initial Access
-- Execution
-- Persistence
-- Privilege Escalation
-- Defense Evasion
-- Credential Access
-- Discovery
-- Lateral Movement
-- Collection
-- Command and Control
-- Exfiltration
-- Impact
+## Executive Message
 
-## Example Mapping
+- objective: [assessment purpose]
+- scope: [systems or functions reviewed]
+- result: [high-level conclusion]
 
-| Objective | ATT&CK Tactic | Typical Validation Question |
-|---|---|---|
-| external reconnaissance | Reconnaissance | What is visible to an external threat actor? |
-| identity validation | Credential Access | Are identity controls strong enough to resist common abuse paths? |
-| server and account access review | Privilege Escalation | Are privilege boundaries effective and observable? |
-| persistence and foothold review | Persistence | Can suspicious persistence be detected and contained? |
-| movement across trust boundaries | Lateral Movement | Are trust relationships constrained and monitored? |
-| exfiltration review | Exfiltration | Are suspicious data paths visible and attributable? |
+## Key Observations
 
-## Senior Guidance
+- [Observation 1]
+- [Observation 2]
+- [Observation 3]
 
-Map findings to both business impact and adversary tradecraft. This makes the output more credible, more useful to defenders, and more actionable for executive stakeholders.
+## Risk Snapshot
+
+- overall risk: [low / moderate / high / critical]
+- primary concern: [summary]
+- highest priority exposure: [business area or control gap]
+
+## Recommended Actions
+
+1. prioritize [most urgent area]
+2. improve [control or visibility gap]
+3. validate remediation in [timeframe]
+
+## Closing Statement
+
+The organization should treat these findings as an operational opportunity to strengthen resilience, improve defensive quality, and reduce risk before adversary behavior becomes materially disruptive.
 

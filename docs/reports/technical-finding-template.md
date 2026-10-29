@@ -2,39 +2,39 @@
 
 ## Executive Summary
 
-This report summarizes the results of the security assessment performed for [Organization Name] between [Start Date] and [End Date].
+This report summarizes the results of the assessment performed for [Organization Name] from [Start Date] to [End Date].
 
 ## Assessment Objectives
 
-- assess the effectiveness of identity, endpoint, network, and cloud controls
-- validate alignment with realistic adversary tradecraft
-- identify control gaps that materially affect business risk
+- review the effectiveness of security controls in scope
+- assess resilience against realistic adversary behavior
+- identify material security gaps and operational risk
 
 ## Overall Risk Assessment
 
-- Overall risk rating: [Low / Moderate / High / Critical]
-- Primary concern: [Brief summary]
-- Impacted business functions: [List relevant services or business areas]
+- overall risk rating: [Low / Moderate / High / Critical]
+- primary concern: [brief summary]
+- business areas affected: [list relevant functions, systems, or environments]
 
 ## Key Findings
 
-1. [Finding title]
-   - Risk: [Severity]
-   - Business impact: [Description]
-   - Evidence: [Operational summary]
+1. [Finding Title]
+   - risk: [severity]
+   - impact: [business impact]
+   - evidence: [concise technical summary]
 
-2. [Finding title]
-   - Risk: [Severity]
-   - Business impact: [Description]
-   - Evidence: [Operational summary]
+2. [Finding Title]
+   - risk: [severity]
+   - impact: [business impact]
+   - evidence: [concise technical summary]
 
 ## Recommended Priorities
 
-1. [Immediate remediation action]
-2. [Priority control improvement]
-3. [Long-term security objective]
+1. [urgent remediation action]
+2. [near-term improvement area]
+3. [longer-term resilience objective]
 
 ## Conclusion
 
-The security posture reflects [summary]. Immediate attention should be directed toward [priority area], followed by [secondary improvement area] to improve resilience and response quality.
+The security posture reflects [overall assessment]. Immediate action should focus on [priority area], followed by [secondary improvement] to increase resilience and reduce risk exposure.
 

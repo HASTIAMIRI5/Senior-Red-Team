@@ -1,46 +1,46 @@
 # Engagement Management Playbook
 
-This playbook outlines how to manage a security engagement responsibly and professionally from planning to closeout.
+This playbook provides a structured operational approach for managing a professional security engagement from planning to closeout.
 
-## 1. Pre-Engagement Phase
+## 1. Planning and Governance
 
 - confirm authorization and contractual boundaries
-- define business objectives and senior stakeholder expectations
-- identify testing time windows and change-control rules
-- map in-scope systems, identities, and data flows
-- gather architecture context, dependency maps, and operational notes
+- define business objectives and success criteria
+- identify critical systems, users, and data flows
+- map stakeholder responsibilities and reporting authority
+- align testing windows with operational constraints
 
-## 2. Planning and Governance
+## 2. Scope Definition
 
-- define success criteria and report scope
-- confirm escalation contacts and communication cadence
-- review detection coverage and defensive touchpoints
-- validate environment constraints and safety boundaries
-- finalize risk posture and working assumptions
+- document in-scope systems and assets
+- specify exclusions and containment boundaries
+- identify business context and risk drivers
+- validate assumptions with stakeholders
+- establish working rules and escalation criteria
 
-## 3. Execution Phase
+## 3. Execution Coordination
 
-- conduct asset inventory and reconnaissance
-- validate attack surface and critical trust paths
-- test identity, access, and exposure controls
-- evaluate detection quality and defensive response patterns
+- perform reconnaissance and asset inventory
+- validate security controls and exposure points
+- review detection quality and response capability
+- test realistic adversary paths aligned to business risk
 - prioritize findings based on impact and evidence quality
 
-## 4. Working Coordination
+## 4. Operational Oversight
 
-- provide structured progress updates to stakeholders
-- document assumptions and emerging risks in real time
-- confirm whether changes in scope or environment require reauthorization
-- maintain clarity around defense and business impact throughout execution
+- provide structured updates to stakeholders
+- document assumptions, blockers, and changes in scope
+- confirm whether reauthorization is required for changes
+- ensure all activity remains aligned with the approved engagement narrative
 
-## 5. Closeout and Follow-Up
+## 5. Reporting and Closeout
 
-- validate and consolidate findings
-- publish an executive-ready summary and technical narrative
-- identify remediation owners and review timing
-- provide a final status report and next-step guidance
+- consolidate findings into clear technical narratives
+- prepare an executive summary and risk overview
+- define remediation priorities and expected follow-up validation
+- document final status, residual risk, and recommended next steps
 
-## Senior Operator Principle
+## Senior Principle
 
-The strongest engagement outcomes are not the most aggressive ones; they are the ones that combine strong tradecraft, disciplined execution, and actionable risk communication.
+The purpose of the engagement is not to produce noise; it is to produce clarity, defended evidence, and actionable security improvements.
 

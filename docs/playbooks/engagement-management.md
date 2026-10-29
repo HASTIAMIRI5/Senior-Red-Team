@@ -1,38 +1,39 @@
 # Operational Security Checklist
 
-Operational security is foundational to credible, mature red-team execution.
+This checklist supports disciplined execution and controlled evidence handling throughout the engagement lifecycle.
 
-## Core Controls
+## Core Operational Controls
 
-- [ ] Only approved infrastructure is used
-- [ ] All communications are secured and monitored
-- [ ] Sensitive data is protected and separated from non-production content
-- [ ] Logging and evidence capture are validated before actions begin
-- [ ] Scope and stop conditions remain visible to the team throughout the engagement
+- [ ] approved infrastructure is used only
+- [ ] all communications are secured and monitored
+- [ ] sensitive artifacts are stored in a structured and protected location
+- [ ] test objectives remain visible to all participants
+- [ ] stop conditions and escalation paths are known to the team
 
 ## Daily Execution Hygiene
 
-- [ ] Current objective and risk context are reviewed before each activity
-- [ ] Task and tool usage are logged in a controlled manner
-- [ ] Out-of-scope systems remain excluded
-- [ ] Unexpected changes to the environment are escalated promptly
-- [ ] Defensive team and client stakeholders are informed as required
+- [ ] current objective is reviewed before each major activity
+- [ ] actions are logged with time, purpose, and context
+- [ ] no out-of-scope assets are touched
+- [ ] unexpected environment changes are escalated promptly
+- [ ] stakeholder communication remains aligned with project intent
 
 ## Evidence Handling
 
-- [ ] Screenshots, logs, and notes are stored in a consistent structure
-- [ ] Artifacts are labeled with time, environment, and context
-- [ ] Original evidence is retained and protected
-- [ ] Report-facing content is curated separately from internal notes
+- [ ] screenshots, logs, and notes are captured in a consistent structure
+- [ ] artifacts are labeled with time, environment, and relevance
+- [ ] evidence is preserved and protected from modification
+- [ ] internal notes remain separate from client-facing report content
+- [ ] key observations are tied to quality control and review processes
 
 ## Risk Controls
 
-- [ ] Emergency stop paths are documented and tested
-- [ ] Contact chain for escalation is known and current
-- [ ] Service degradation and operational fallout are actively minimized
-- [ ] Actions remain aligned to approved objectives and constraints
+- [ ] emergency stop paths are documented and understood
+- [ ] contact chain for escalation is current
+- [ ] service degradation is actively minimized
+- [ ] actions remain aligned with approved objectives and constraints
 
 ## Final Verification
 
-Any action that cannot be clearly explained, justified in approved scope, and supported by evidence should be questioned before execution.
+Before any action is taken, the team should be able to explain why it is in scope, what it is testing, how it will be recorded, and what the expected risk or impact is.
 
